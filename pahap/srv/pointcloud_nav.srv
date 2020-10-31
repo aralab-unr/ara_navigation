@@ -1,0 +1,7 @@
+bool cmd
+bool topic
+string  path
+string num_name
+---
+int32 dataNumber
+geometry_msgs/Point[] points

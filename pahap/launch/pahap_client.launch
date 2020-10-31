@@ -1,0 +1,18 @@
+<launch>
+  <arg name="requestTopic"       default="false"/>
+  <arg name="fromTopic"       	default="false"/>
+  <arg name="addressToSave"       default="/home/buivn/bui_ws/src/pahap/pointcloud/"/>
+
+
+
+<!--   <node name="pahap_client" pkg="pahap" type="pcl_pahap_client">
+    <param name="requestTopic"   value="$(arg requestTopic)"/>
+    <param name="addressToSave"  value="$(arg addressToSave)"/>
+  </node> -->
+
+  <node name="pahap_client_navi" pkg="pahap" type="pahap_client_navi">
+    <param name="fromTopic"   value="$(arg fromTopic)"/>
+    <!-- <param name="addressToSave"  value="$(arg addressToSave)"/> -->
+  </node>
+
+</launch>

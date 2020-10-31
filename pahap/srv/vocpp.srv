@@ -1,0 +1,8 @@
+bool cmd
+geometry_msgs/Point startVertex # x = x-coordinate, y = y-coordinate, z = vertex index
+geometry_msgs/Point targetVertex # x = x-coordinate, y = y-coordinate, z = vertex index
+geometry_msgs/Point[] vertices # x = x-coordinate, y = y-coordinate, z = vertex index
+geometry_msgs/Point[] edges # x = vertex 1, y = vertex 2, z = distance
+---
+bool check
+geometry_msgs/Point[] path # x = start vertex, y = ending vertex, z = distance

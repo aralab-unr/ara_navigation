@@ -1,0 +1,8 @@
+bool cmd
+geometry_msgs/Point[] vocpp_path	
+pahap/cluster[] clusterSet
+---
+bool check
+geometry_msgs/Point[] path # x = coordinate x, y = coordinate y, z = phi
+float32[] line_cooeficient
+float32[] interPoints

@@ -1,0 +1,6 @@
+bool cmd
+float32[] line_cooef
+float32[] intersections
+geometry_msgs/Point[] points
+---
+bool check

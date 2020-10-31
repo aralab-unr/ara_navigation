@@ -1,0 +1,9 @@
+bool cmd
+int16[] numofData	# number of data in each cluster set.
+pahap/cluster[] clusterSet
+---
+bool check
+geometry_msgs/Point[] vocpp_path # x = coordinate x, y = coordinate y, z = 0
+geometry_msgs/Point[] edges # x = vertex 1, y = vertex 2, z = distance
+float32[] line_cooeficient
+float32[] interPoints

@@ -1,0 +1,12 @@
+bool cmd
+int32 dataNumber
+geometry_msgs/Point[] points
+---
+bool test
+int16[] numofData
+pahap/cluster[] clusterSet
+#geometry_msgs/Point[] cluster1
+#geometry_msgs/Point[] cluster2
+#geometry_msgs/Point[] cluster3
+#geometry_msgs/Point[] cluster4
+#geometry_msgs/Point[] cluster5
